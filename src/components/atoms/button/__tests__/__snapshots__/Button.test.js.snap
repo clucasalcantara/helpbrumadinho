@@ -22,6 +22,7 @@ ShallowWrapper {
     "nodeType": "class",
     "props": Object {
       "as": "button",
+      "children": undefined,
       "className": "ui primary button ",
       "content": "Sugira agora",
       "onClick": [Function],
@@ -37,6 +38,7 @@ ShallowWrapper {
       "nodeType": "class",
       "props": Object {
         "as": "button",
+        "children": undefined,
         "className": "ui primary button ",
         "content": "Sugira agora",
         "onClick": [Function],

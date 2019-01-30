@@ -15,7 +15,6 @@ import { createContext } from 'store'
 import 'semantic-ui-css/semantic.min.css'
 import 'assets/css/global.scss'
 import 'assets/css/responsive.scss'
-import './index.css'
 
 const baseContext = createContext()
 
