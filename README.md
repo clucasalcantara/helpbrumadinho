@@ -52,7 +52,7 @@ src/components/atoms/my-awesome-component <- Folder name
 ## Running locally
 
 ```
-$ git clone git@github.com:workwith-coffee/portal.git
+$ git clone git@github.com:clucasalcantara/helpbrumadinho.git
 $ yarn
 $ yarn start:mock
 $ yarn start

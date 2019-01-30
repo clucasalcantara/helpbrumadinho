@@ -1,5 +1,6 @@
 {
-  "name": "wwcoffee-frontend",
+  "name": "helpbrumadinho",
+  "description": "A website to hold drop locations for help resources",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
