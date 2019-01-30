@@ -1,3 +1,4 @@
+[![Maintainability](https://api.codeclimate.com/v1/badges/c8f04d07d73d482cddd3/maintainability)](https://codeclimate.com/github/clucasalcantara/helpbrumadinho/maintainability)
 # Help Brumadinho - Dropoff Locations
 <p align="center">
   <img src="https://i.ibb.co/T1hy185/brumadinho.png" alt="brumadinho" border="0" />
