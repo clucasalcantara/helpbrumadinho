@@ -1,3 +1,4 @@
+[![CircleCI](https://circleci.com/gh/clucasalcantara/helpbrumadinho.svg?style=svg)](https://circleci.com/gh/clucasalcantara/helpbrumadinho)
 [![Maintainability](https://api.codeclimate.com/v1/badges/c8f04d07d73d482cddd3/maintainability)](https://codeclimate.com/github/clucasalcantara/helpbrumadinho/maintainability)
 # Help Brumadinho - Dropoff Locations
 <p align="center">
