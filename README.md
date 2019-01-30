@@ -1,4 +1,7 @@
 # Help Brumadinho - Dropoff Locations
+<p align="center">
+  <img src="https://i.ibb.co/T1hy185/brumadinho.png" alt="brumadinho" border="0" />
+</p>
 
 The idea of this project is to list and help users to find near dropoff points of helping resources for the
 Brumadinho - MG catastrophy.
