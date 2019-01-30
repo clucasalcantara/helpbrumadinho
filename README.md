@@ -42,6 +42,7 @@ src/components/atoms/title <- Folder name
 └── index.js   <- Reflection export folder
 
 Composed name component
+
 src/components/atoms/my-awesome-component <- Folder name
 ├── MyAwesomeComponent.js    <- Component file
 ├── MyAwesomeComponent.mdx   <- Docz file
