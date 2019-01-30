@@ -1,0 +1,212 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+body {
+  padding-top: 70px;
+  background-color: #f6f5f2;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  line-height: 1.5;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+}
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1000;
+}
+.hb-header {
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  border-bottom: none;
+  background-color: #1b1c1d;
+  color: white;
+  height: 70px;
+  width: 100%;
+  z-index: 10;
+  text-transform: uppercase;
+}
+.hb-hero.ui.vertical.segment {
+  min-height: 350px;
+  background: url('http://imagens.ebc.com.br/z9Ok-dJWDQDflP_giZB_8WioHCA=/1140x760/smart/http://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/reuters-adriano_machado_.jpg?itok=amHwtEZl')
+    center top no-repeat;
+  background-size: cover;
+}
+.hb-hero.ui.vertical.segment:after {
+  background-color: rgba(0, 0, 0, 0.5);
+  content: '';
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.hb-hero.ui.vertical.segment .ui.container {
+  position: relative;
+  z-index: 2;
+}
+.hb-hero.ui.vertical.segment .ui.text.container {
+  max-width: 100% !important;
+}
+.hb-hero.ui.vertical.segment .search-master {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.hb-hero.ui.vertical.segment .ui.header {
+  color: white;
+  font-size: 1.5em;
+  margin-top: 4.5em;
+}
+.hb-logo {
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 1.6em;
+  color: white;
+  display: block;
+  float: left;
+  margin-top: 0.7em;
+}
+.hb-menu {
+  float: right;
+  height: 70px;
+  line-height: 70px;
+}
+.hb-menu a {
+  font-size: 1.1em;
+  margin: 0 0.8em;
+  letter-spacing: 1px;
+  color: white;
+}
+.hb-menu a:last-child {
+  margin-right: 0;
+}
+.py-1 {
+  padding: 1em 0;
+}
+.py-2 {
+  padding: 2em 0;
+}
+.py-3 {
+  padding: 3em 0;
+}
+.no-padding {
+  padding: 0 !important;
+}
+.hb-cards a.ui.card {
+  -webkit-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  -moz-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+.hb-cards a.ui.card:hover {
+  -webkit-box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.095);
+  -moz-box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.095);
+  box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.095);
+}
+.hb-cards .ui.rating {
+  margin-left: -2px;
+}
+.hb-cards .ui.rating .active.icon {
+  color: #ffc000;
+}
+.hb-cards .ui.card > .content > .description.hb-status-open,
+.hb-cards .ui.cards > .card > .content > .description.hb-status-open {
+  color: green;
+}
+.hb-cards .ui.card > .content > .description.hb-status-closed,
+.hb-cards .ui.cards > .card > .content > .description.hb-status-closed {
+  color: red;
+}
+.hb-numbers {
+  padding-bottom: 3em;
+}
+.hb-hightlight .placeholder.segment {
+  border: none;
+  box-shadow: 0 0.2rem 0.25rem rgba(0, 0, 0, 0.095) !important;
+  background-color: white;
+}
+.footer {
+  margin-top: 3em;
+}
+.typed-wrap {
+  width: 100%;
+  display: block;
+  font-size: 1.6em;
+  line-height: 1.5;
+}
+.typed-wrap .typed {
+  white-space: pre;
+}
+.menu-toggle {
+  width: 30px;
+  height: 32px;
+  outline: none;
+  position: relative;
+  cursor: pointer;
+  display: none;
+  float: right;
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  margin-top: 1.2em;
+}
+.menu-toggle:hover .one {
+  -webkit-transform: translate(0, 1px);
+  -moz-transform: translate(0, 1px);
+  -ms-transform: translate(0, 1px);
+  transform: translate(0, 1px);
+}
+.menu-toggle:hover .three {
+  -webkit-transform: translate(0, -1px);
+  -moz-transform: translate(0, -1px);
+  -ms-transform: translate(0, -1px);
+  transform: translate(0, -1px);
+}
+.menu-toggle.on .one {
+  -webkit-transform: rotate(45deg) translate(7px, 8px);
+  -moz-transform: rotate(45deg) translate(7px, 8px);
+  -ms-transform: rotate(45deg) translate(7px, 8px);
+  transform: rotate(45deg) translate(7px, 8px);
+}
+.menu-toggle.on .two {
+  opacity: 0;
+}
+.menu-toggle.on .three {
+  -webkit-transform: rotate(-45deg) translate(6px, -7px);
+  -moz-transform: rotate(-45deg) translate(6px, -7px);
+  -ms-transform: rotate(-45deg) translate(6px, -7px);
+  transform: rotate(-45deg) translate(6px, -7px);
+}
+.one,
+.two,
+.three {
+  width: 100%;
+  height: 3px;
+  background-color: white;
+  margin: 6px auto;
+  backface-visibility: hidden;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.menu-open .menu-toggle .one {
+  -webkit-transform: rotate(45deg) translate(7px, 7px);
+  -moz-transform: rotate(45deg) translate(7px, 7px);
+  -ms-transform: rotate(45deg) translate(7px, 7px);
+  transform: rotate(45deg) translate(7px, 7px);
+}
+.menu-open .menu-toggle .two {
+  opacity: 0;
+}
+.menu-open .menu-toggle .three {
+  -webkit-transform: rotate(-45deg) translate(6px, -6px);
+  -moz-transform: rotate(-45deg) translate(6px, -6px);
+  -ms-transform: rotate(-45deg) translate(6px, -6px);
+  transform: rotate(-45deg) translate(6px, -6px);
+}
+/*# sourceMappingURL=style.css.map */

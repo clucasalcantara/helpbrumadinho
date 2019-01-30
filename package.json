@@ -1,0 +1,86 @@
+{
+  "name": "wwcoffee-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/core": "^10.0.6",
+    "algoliasearch": "^3.32.0",
+    "axios": "^0.18.0",
+    "browser-process-hrtime": "^1.0.0",
+    "cross-env": "^5.2.0",
+    "enzyme": "^3.8.0",
+    "enzyme-adapter-react-16": "^1.7.1",
+    "jest-enzyme": "^7.0.1",
+    "json-server": "^0.14.2",
+    "node-sass": "^4.11.0",
+    "path": "^0.12.7",
+    "places.js": "^1.15.4",
+    "prop-types": "^15.6.2",
+    "react": "16.8.0-alpha.1",
+    "react-autosuggest": "^9.4.3",
+    "react-dom": "16.8.0-alpha.1",
+    "react-instantsearch-dom": "^5.3.2",
+    "react-router-config": "^4.4.0-beta.6",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.3",
+    "react-sweet-progress": "^1.1.2",
+    "react-test-renderer": "^16.7.0",
+    "react-typed": "^1.1.0",
+    "sass-loader": "^7.1.0",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.84.0",
+    "speedtest-net": "^1.4.3",
+    "webpack": "4.19.1"
+  },
+  "lint-staged": {
+    "*.{js,jsx}": [
+      "pretty-quick --staged",
+      "eslint src/ --fix",
+      "git add"
+    ]
+  },
+  "scripts": {
+    "start": "cross-env NODE_PATH=src react-scripts start",
+    "start:mock": "json-server --watch ./__mocks__/db.json -p 4000",
+    "build": "cross-env NODE_PATH=src react-scripts build",
+    "test": "cross-env NODE_PATH=src react-scripts test",
+    "lint": "eslint src/",
+    "lint:fix": "eslint src/ --fix",
+    "test:ci": "cross-env NODE_PATH=src react-scripts test --coverage",
+    "eject": "react-scripts eject",
+    "docz:dev": "docz dev",
+    "docz:build": "docz build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "docz": "^0.13.7",
+    "docz-plugin-css": "^0.11.0",
+    "docz-theme-default": "^0.13.7",
+    "eslint": "5.6.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^4.0.0",
+    "eslint-plugin-import": "^2.15.0",
+    "eslint-plugin-jest": "^22.1.3",
+    "eslint-plugin-jsx-a11y": "^6.2.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.12.4",
+    "husky": "^1.3.1",
+    "lint-staged": "^8.1.0",
+    "prettier": "^1.16.1",
+    "pretty-quick": "^1.10.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "cross-env NODE_ENV=production lint-staged",
+      "pre-push": "cross-env NODE_ENV=production lint-staged && yarn test:ci"
+    }
+  }
+}

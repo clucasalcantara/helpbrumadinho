@@ -1,0 +1,74 @@
+{
+  "dropoffs": [
+    {
+      "id": 0,
+      "name": "Salvador Shopping",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/9f/ed/6f/9fed6f2d-7780-9561-e9f5-b87dba4e12dc/source/256x256bb.jpg",
+      "location": "Piso L2",
+      "accepts": "Água mineral e comida.",
+      "city": "SSA"
+    },
+    {
+      "id": 1,
+      "name": "Salvador Shopping",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/9f/ed/6f/9fed6f2d-7780-9561-e9f5-b87dba4e12dc/source/256x256bb.jpg",
+      "location": "Piso L2",
+      "accepts": "Água mineral e comida.",
+      "city": "SSA"
+    },
+    {
+      "id": 2,
+      "name": "Salvador Shopping",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/9f/ed/6f/9fed6f2d-7780-9561-e9f5-b87dba4e12dc/source/256x256bb.jpg",
+      "location": "Piso L2",
+      "accepts": "Água mineral e comida.",
+      "city": "SSA"
+    },
+    {
+      "id": 3,
+      "name": "Salvador Shopping",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/9f/ed/6f/9fed6f2d-7780-9561-e9f5-b87dba4e12dc/source/256x256bb.jpg",
+      "location": "Piso L2",
+      "accepts": "Água mineral e comida.",
+      "city": "SSA"
+    },
+    {
+      "id": 4,
+      "name": "Salvador Shopping",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/9f/ed/6f/9fed6f2d-7780-9561-e9f5-b87dba4e12dc/source/256x256bb.jpg",
+      "location": "Piso L2",
+      "accepts": "Água mineral e comida.",
+      "city": "SP"
+    },
+    {
+      "id": 5,
+      "name": "Salvador Shopping",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/9f/ed/6f/9fed6f2d-7780-9561-e9f5-b87dba4e12dc/source/256x256bb.jpg",
+      "location": "Piso L2",
+      "accepts": "Água mineral e comida.",
+      "city": "SP"
+    },
+    {
+      "id": 6,
+      "name": "Salvador Shopping",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/9f/ed/6f/9fed6f2d-7780-9561-e9f5-b87dba4e12dc/source/256x256bb.jpg",
+      "location": "Piso L2",
+      "accepts": "Água mineral e comida.",
+      "city": "SP"
+    },
+    {
+      "id": 7,
+      "name": "Salvador Shopping",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/9f/ed/6f/9fed6f2d-7780-9561-e9f5-b87dba4e12dc/source/256x256bb.jpg",
+      "location": "Piso L2",
+      "accepts": "Água mineral e comida.",
+      "city": "SP"
+    }
+  ],
+  "statistics": {
+    "deaths": 84,
+    "missing": 276,
+    "rescued": 192,
+    "located": 391
+  }
+}

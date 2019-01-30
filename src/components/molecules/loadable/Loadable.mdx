@@ -1,0 +1,24 @@
+---
+name: Loadable
+menu: Molecules
+---
+
+import { Playground, PropsTable } from 'docz'
+import Loadable from './Loadable'
+import { Title } from '../../atoms/'
+
+# Loadable component
+
+## Basic usage
+
+The Loadable component is a wrapper to waiting actions :) He uses the `React Suspends` with a loading fallback
+
+<Playground>
+  <Loadable>
+    <Title content="Hi, there" />
+  </Loadable>
+</Playground>
+
+## Properties
+
+<PropsTable of={Loadable} />
