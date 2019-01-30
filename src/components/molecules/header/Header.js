@@ -1,21 +1,29 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { array } from 'prop-types'
 import { Link } from 'react-router-dom'
+// UI Elements
+import { Button } from 'components/atoms'
+
 // Styles
 import './style.scss'
 
 const Header = ({ navItems }) => {
+  const [isMenuOpen, setMenuOpen] = useState(false)
+
   return (
-    <header className="fixed-top hb-header">
+    <header className={`fixed-top hb-header ${isMenuOpen ? 'menu-open' : ''}`}>
       <div className="ui container">
         <a href="/" className="hb-logo">
           Help Brumadinho
         </a>
-        <button type="button" className="menu-toggle" id="btnMenu">
+        <Button
+          className="menu-toggle"
+          handleClick={() => setMenuOpen(!isMenuOpen)}
+        >
           <div className="one" />
           <div className="two" />
           <div className="three" />
-        </button>
+        </Button>
         <nav className="hb-menu">
           {navItems.map(item => (
             <Link key={item.path} to={item.path} className="item">
